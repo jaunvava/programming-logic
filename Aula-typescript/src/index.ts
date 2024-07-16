@@ -1,0 +1,1 @@
+const dados = 10;

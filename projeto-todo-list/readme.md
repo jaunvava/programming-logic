@@ -1,0 +1,1 @@
+- Projetinho simples e didático voltado ao estudo de lógica de programação.
