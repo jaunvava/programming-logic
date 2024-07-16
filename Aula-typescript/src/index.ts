@@ -10,7 +10,7 @@
 //   trabalha?: boolean;
 // }
 
-// quando se coloca ? a atribuição não fica de obrigatoria.
+// quando se coloca ? a atribuição não fica obrigatoria.
 
 // const pessoa: Person = {
 //   nome: "João Pedro",
