@@ -1,4 +1,15 @@
-.rodape {
+*{
+  padding: 0%;
+}
+
+#cabecalho {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(241, 206, 50);
+  border-radius: 10px;
+}
+
+#cabecalho .cabecalho-header {
+  align-items: center;
+  display: flex;
 }

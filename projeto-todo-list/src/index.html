@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo List</title>
     <link rel="stylesheet" href="/src/style.css" />
-    <link rel="shortcut icon" href="/public/list.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/list.svg" type="image/x-icon" />
   </head>
   <body>
-    <header></header>
+    <header id="cabecalho">
+      <div class="cabecalho-header">
+        <nav>
+          <h1>Lista de tarefas</h1>
+        </nav>
+      </div>
+    </header>
+
     <main>
       <section>
-        <h1>Lista de tarefas</h1>
+        <h1>Tasks</h1>
         <form id="todo-form">
           <input
             type="text"
@@ -23,16 +30,16 @@
       </section>
 
       <section>
-        <ul id="todo-list-ul">
-          <li>Tafera 1</li>
-        </ul>
+        <ul id="todo-list-ul"></ul>
       </section>
     </main>
 
-    <footer class="rodape">
-      <a href="https://github.com/jaunvava/programming-logic" target="_blank"
-        >Link Respositorio</a
-      >
+    <footer>
+      <div class="rodape">
+        <a href="https://github.com/jaunvava/programming-logic" target="_blank"
+          >Link Respositorio</a
+        >
+      </div>
     </footer>
 
     <script src="/src/index.js"></script>
