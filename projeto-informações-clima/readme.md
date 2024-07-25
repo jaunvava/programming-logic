@@ -1,1 +1,1 @@
-# 
+# Projeto de uso de API de clima feito em Typescript
